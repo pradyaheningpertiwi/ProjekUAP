@@ -222,7 +222,7 @@ void peraturan(){
 	cout<<"|            PERATURAN PERMAINAN             |"<<endl;
 	cout<<"|____________________________________________|"<<endl;
 	cout<<"| 1. Kata yang ditebak merupakan nama-nama   |\n|    mahasiswa Ilkomp 22.\t\t     |"<<endl;
-	cout<<"| 2. Player menebak kata dengan menginputkan |\n|    huruf satu per satu.\t\t     |"<<endl;
+	cout<<"| 2. Player menebak kata dengan menginputkan |\n|    huruf kecil satu per satu.\t\t     |"<<endl;
 	cout<<"| 3. Player memiliki 5 nyawa pertama.        |"<<endl;
 	cout<<"| 4. Jika huruf inputan salah maka nyawa     |\n|    player hilang 1.\t\t\t     |"<<endl;
 	cout<<"| 5. Jika nyawa player sudah 0 ya player     |\n|    kalah dan gantung diri\t\t     |"<<endl;
