@@ -197,6 +197,7 @@ void game (){
 	}
 	if( found != wordLength ){
 		cout<<endl;
+		cout<<"Jawaban\t: "<<word<<endl;
 		cout<<"\t\t\t\t\t          Yah Kalah   "<<endl;
 		cout<<"\t\t\t\t     Tetap putus asa, jangan semangat!!! "<<endl;
 		lagi();
@@ -224,7 +225,7 @@ void peraturan(){
 	cout<<"| 1. Kata yang ditebak merupakan nama-nama   |\n|    mahasiswa Ilkomp 22.\t\t     |"<<endl;
 	cout<<"| 2. Player menebak kata dengan menginputkan |\n|    huruf kecil satu per satu.\t\t     |"<<endl;
 	cout<<"| 3. Player memiliki 5 nyawa pertama.        |"<<endl;
-	cout<<"| 4. Jika huruf inputan salah maka nyawa     |\n|    player hilang 1.\t\t\t     |"<<endl;
+	cout<<"| 4. Jika huruf inputan salah maka nyawa     |\n|    player berkurang 1.\t\t     |"<<endl;
 	cout<<"| 5. Jika nyawa player sudah 0 ya player     |\n|    kalah dan gantung diri\t\t     |"<<endl;
 	cout<<"| 6. Jika player benar menebak kata dengan   |\n|    nyawa masih tersisa maka player menang  |\n|    dan ga dapet apa-apa.\t\t     |"<<endl;
 	cout<<"|____________________________________________|"<<endl;
