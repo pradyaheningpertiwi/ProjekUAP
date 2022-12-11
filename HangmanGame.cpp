@@ -50,21 +50,70 @@ void loading(){
     for (int i = 0; i < 27; i++) {
         printf("%c", b);
   
-        Sleep(500);
+        Sleep(100);
     }
-    cout<<endl;
 }
         
 void gambar(int tries){
+	if(tries==5) {
+    	cout<<"  +---+ \n";
+    	cout<<"  |   | \n";
+    	cout<<"      | \n";
+    	cout<<"      | \n";
+    	cout<<"      | \n";
+    	cout<<"      | \n";
+    	cout<<" ========= \n";
+	}
+  	else if(tries==4){
+	cout<<"  +---+ \n";
+    	cout<<"  |   | \n";
+    	cout<<"  O   | \n";
+   	cout<<"  |   | \n";
+    	cout<<"      | \n";
+    	cout<<"      | \n";
+    	cout<<" ========= \n";
+	}
+	else if(tries==3)
+	{
+	cout<<"  +---+ \n";
+	cout<<"  |   | \n";
+    	cout<<"  O   | \n";
+    	cout<<" /|   | \n";
+    	cout<<"      | \n";
+    	cout<<"      | \n";
+    	cout<<" ========= \n";
+	}
+	else if(tries==2)
+	{
+	cout<<"  +---+ \n";
+	cout<<"  |   | \n";
+	cout<<"  O   | \n";
+	cout<<" /|\\  | \n";
+	cout<<"      | \n";
+	cout<<"      | \n";
+	cout<<" ========= \n";
+	}
+	else if(tries==1)
+	{
+	cout<<"  +---+ \n";
+	cout<<"  |   | \n";
+	cout<<"  O   | \n";
+	cout<<" /|\\  | \n";
+	cout<<" /    | \n";
+	cout<<"      | \n";
+	cout<<" ========= \n";
+	}
+	else if(tries==0)
+	{
+	cout<<"  +---+ \n";
+	cout<<"  |   | \n";
+	cout<<"  O   | \n";
+	cout<<" /|\\  | \n";
+	cout<<" / \\  | \n";
+	cout<<"      | \n";
+	cout<<" ========= \n";
+  }
 	
-	cout<<endl<<endl;
-	cout<<"  -----"<<endl;
-	cout<<"  |   |"<<endl; 
-	cout<<"  |"; if(tries>=1) cout<<"   O    "; cout<<endl;
-	cout<<"  |"; if(tries>=3) cout<<"  /|\\   "; cout<<endl;
-	cout<<"  |"; if(tries>=5) cout<<"  / \\    "; cout<<endl;
-	cout<<"  |"<<endl; 
-	cout<<"__|__"<<endl;
 }
 
 void main_menu(){
@@ -172,14 +221,16 @@ void peraturan(){
 	cout<<"|                                            |"<<endl;  
 	cout<<"|            PERATURAN PERMAINAN             |"<<endl;
 	cout<<"|____________________________________________|"<<endl;
-	cout<<"| 1. Player menebak kata dengan menginputkan |\n|    huruf satu per satu.\t\t     |"<<endl;
-	cout<<"| 2. Player memiliki 5 nyawa pertama.        |"<<endl;
-	cout<<"| 3. Jika huruf inputan salah maka nyawa     |\n|    player hilang 1.\t\t\t     |"<<endl;
-	cout<<"| 3. Jika nyawa player sudah 0 ya player     |\n|    kalah.\t\t\t\t     |"<<endl;
-	cout<<"| 4. Jika player menebak kata dengan benar   |\n|    dengan nyawa masih tersisa maka player  |\n|    menang dan ga dapet apa-apa.\t     |"<<endl;
+	cout<<"| 1. Kata yang ditebak merupakan nama-nama   |\n|    mahasiswa Ilkomp 22.\t\t     |"<<endl;
+	cout<<"| 2. Player menebak kata dengan menginputkan |\n|    huruf satu per satu.\t\t     |"<<endl;
+	cout<<"| 3. Player memiliki 5 nyawa pertama.        |"<<endl;
+	cout<<"| 4. Jika huruf inputan salah maka nyawa     |\n|    player hilang 1.\t\t\t     |"<<endl;
+	cout<<"| 5. Jika nyawa player sudah 0 ya player     |\n|    kalah dan gantung diri\t\t     |"<<endl;
+	cout<<"| 6. Jika player benar menebak kata dengan   |\n|    nyawa masih tersisa maka player menang  |\n|    dan ga dapet apa-apa.\t\t     |"<<endl;
 	cout<<"|____________________________________________|"<<endl;
-	cout<<"\n\n\t\t[Klik Enter] \n\n\n\n\n\n\n\n\n\n\n\n";
-}
+	cout<<"\n\n\t\t[Klik Enter] \n\n\n\n\n\n\n\n\n\n";
+	}
+
 void lagi(){
 	
 	char pilih;
