@@ -38,7 +38,7 @@ void loading(){
     char a = 176, b = 219;
   
     printf("\n\n\n\n\n");
-    printf("\n\n\n\n\n\t\t\t\t\t\t      Lagi loading...\n\n");
+    printf("\n\n\n\n\n\t\t\t\t\t\t     Menunggu kepastian...\n\n");
     printf("\t\t\t\t\t\t");
   
     for (int i = 0; i < 27; i++)
@@ -119,10 +119,8 @@ void gambar(int tries){
 void main_menu(){
 	header();
 	cout<< "\n\t\t\t\t\t          [Klik Enter]";
-    	cout<< "\n\t\t\tKenapa klik Enter? karena kalo klik Entar ya programnya ga jalan xixixi :)\n\n\n\n\n\n\n\n\n\n";
+    	cout<< "\n\t\t\tKenapa klik Enter? karena kalo klik Entar gaada di keyboard xixixi :)\n\n\n\n\n\n\n\n\n\n";
 	system("pause");
-	system("cls");
-	loading();
 	system("cls");
 	peraturan();
 	system("pause");
@@ -136,6 +134,7 @@ void game (){
 	cin>>shap;
 	system("cls");
 	if(shap=='y'||shap=='Y') {
+	loading();
 	system("cls");
 	srand (time(NULL));
 	string wordList[10] = {"naura","adelia","cakrawangsa","marcel","habibullah","riziq","mukti","fahreza","akmal","irma"};
@@ -208,7 +207,7 @@ void game (){
 	else if(shap=='t'||shap=='T')
 	{
 		cout<<"\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t  Syukurlah kalo ga jadi main "<<endl;
-		cout<<"\n\t\t\t\t\t       (^_^) byebye!! *"<<endl;
+		cout<<"\n\t\t\t\t\t       (^_^) byebye!! "<<endl;
 		cout << "\n\n\n\n\n\n\n\n\n\n\n\n";
 	}
 	else{
@@ -218,18 +217,18 @@ void game (){
 	system("break");
 }
 void peraturan(){
-	cout<<"______________________________________________"<<endl;
-	cout<<"|                                            |"<<endl;  
-	cout<<"|            PERATURAN PERMAINAN             |"<<endl;
-	cout<<"|____________________________________________|"<<endl;
-	cout<<"| 1. Kata yang ditebak merupakan nama-nama   |\n|    mahasiswa Ilkomp 22.\t\t     |"<<endl;
-	cout<<"| 2. Player menebak kata dengan menginputkan |\n|    huruf kecil satu per satu.\t\t     |"<<endl;
-	cout<<"| 3. Player memiliki 5 nyawa pertama.        |"<<endl;
-	cout<<"| 4. Jika huruf inputan salah maka nyawa     |\n|    player berkurang 1.\t\t     |"<<endl;
-	cout<<"| 5. Jika nyawa player sudah 0 ya player     |\n|    kalah dan gantung diri\t\t     |"<<endl;
-	cout<<"| 6. Jika player benar menebak kata dengan   |\n|    nyawa masih tersisa maka player menang  |\n|    dan ga dapet apa-apa.\t\t     |"<<endl;
-	cout<<"|____________________________________________|"<<endl;
-	cout<<"\n\n\t\t[Klik Enter] \n\n\n\n\n\n\n\n\n\n";
+	cout<<"\t\t\t\t\t______________________________________________"<<endl;
+	cout<<"\t\t\t\t\t|                                            |"<<endl;  
+	cout<<"\t\t\t\t\t|            PERATURAN PERMAINAN             |"<<endl;
+	cout<<"\t\t\t\t\t|____________________________________________|"<<endl;
+	cout<<"\t\t\t\t\t| 1. Kata yang ditebak merupakan nama-nama   |\n\t\t\t\t\t|    mahasiswa Ilkomp 22.\t\t     |"<<endl;
+	cout<<"\t\t\t\t\t| 2. Player menebak kata dengan menginputkan |\n\t\t\t\t\t|    huruf kecil satu per satu.\t\t     |"<<endl;
+	cout<<"\t\t\t\t\t| 3. Player memiliki 5 nyawa pertama.        |"<<endl;
+	cout<<"\t\t\t\t\t| 4. Jika huruf inputan salah maka nyawa     |\n\t\t\t\t\t|    player berkurang 1.\t\t     |"<<endl;
+	cout<<"\t\t\t\t\t| 5. Jika nyawa player sudah 0 ya player     |\n\t\t\t\t\t|    kalah dan gantung diri\t\t     |"<<endl;
+	cout<<"\t\t\t\t\t| 6. Jika player benar menebak kata dengan   |\n\t\t\t\t\t|    nyawa masih tersisa maka player menang  |\n\t\t\t\t\t|    dan dapet hikmahnya .\t\t     |"<<endl;
+	cout<<"\t\t\t\t\t|____________________________________________|"<<endl;
+	cout<<"\n\n\t\t\t              \t \t\t [Klik Enter] \n\n\n\n\n\n\n\n\n\n";
 	}
 
 void lagi(){
@@ -245,13 +244,12 @@ void lagi(){
 	}
 	else if (pilih=='t'||pilih=='T'){
 		system("cls");
-		cout << "\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\tTerimakasih sudah memainkan game ga jelas ini";
+		cout << "\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\tTerimakasih sudah memainkan game by DDP";
 		cout<<"\n\t\t\t\t\t\t       (^_^) byebye!! *"<<endl;
 		cout << "\n\n\n\n\n\n\n\n\n\n\n\n";
 	}
 	else {
-		cout<<"\t\t\t\t\t       Salah input woy!"<<endl;
+		cout<<"\t\t\t\t\t       SALAH INPUT WOY!"<<endl;
 		lagi();
 	}
 }
-
