@@ -137,7 +137,7 @@ void game (){
 	loading();
 	system("cls");
 	srand (time(NULL));
-	string wordList[10] = {"naura","adelia","cakrawangsa","marcel","habibullah","riziq","mukti","fahreza","akmal","irma"};
+	string wordList[10] = {"komodo","tokek","monyet","bunglon","pinguin","kucing","semut","siput","tikus","bebek"};
 	string word;
 	string guessed;
 	
@@ -154,7 +154,7 @@ void game (){
 	while(tries>=0){
 		system("cls");
 		cout<<endl<<endl;
-		cout<<"Tebak Nama Mahasiswa Ilkomp 22 : "<<endl<<endl;
+		cout<<"Tebak nama hewan yang tidak memiliki huruf A : "<<endl<<endl;
 		 
 		for(int i=0; i<wordLength; i++)
 			cout<<" "<<dispWord[i]<<" "; 
@@ -221,7 +221,7 @@ void peraturan(){
 	cout<<"\t\t\t\t\t|                                            |"<<endl;  
 	cout<<"\t\t\t\t\t|            PERATURAN PERMAINAN             |"<<endl;
 	cout<<"\t\t\t\t\t|____________________________________________|"<<endl;
-	cout<<"\t\t\t\t\t| 1. Kata yang ditebak merupakan nama-nama   |\n\t\t\t\t\t|    mahasiswa Ilkomp 22.\t\t     |"<<endl;
+	cout<<"\t\t\t\t\t| 1. Kata yang ditebak merupakan nama-nama   |\n\t\t\t\t\t|    hewan yang tidak memiliki huruf A.\t\t     |"<<endl;
 	cout<<"\t\t\t\t\t| 2. Player menebak kata dengan menginputkan |\n\t\t\t\t\t|    huruf kecil satu per satu.\t\t     |"<<endl;
 	cout<<"\t\t\t\t\t| 3. Player memiliki 5 nyawa pertama.        |"<<endl;
 	cout<<"\t\t\t\t\t| 4. Jika huruf inputan salah maka nyawa     |\n\t\t\t\t\t|    player berkurang 1.\t\t     |"<<endl;
