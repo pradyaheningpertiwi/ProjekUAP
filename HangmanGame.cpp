@@ -38,7 +38,7 @@ void loading(){
     char a = 176, b = 219;
   
     printf("\n\n\n\n\n");
-    printf("\n\n\n\n\n\t\t\t\t\t\t     Menunggu kepastian...\n\n");
+    printf("\n\n\n\n\n\t\t\t\t\t\t    Menunggu kepastian...\n\n");
     printf("\t\t\t\t\t\t");
   
     for (int i = 0; i < 27; i++)
@@ -207,7 +207,7 @@ void game (){
 	else if(shap=='t'||shap=='T')
 	{
 		cout<<"\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t  Syukurlah kalo ga jadi main "<<endl;
-		cout<<"\n\t\t\t\t\t       (^_^) byebye!! "<<endl;
+		cout<<"\n\t\t\t\t\t       (^_^) byebye!!  "<<endl;
 		cout << "\n\n\n\n\n\n\n\n\n\n\n\n";
 	}
 	else{
