@@ -221,7 +221,7 @@ void peraturan(){
 	cout<<"\t\t\t\t\t|                                            |"<<endl;  
 	cout<<"\t\t\t\t\t|            PERATURAN PERMAINAN             |"<<endl;
 	cout<<"\t\t\t\t\t|____________________________________________|"<<endl;
-	cout<<"\t\t\t\t\t| 1. Kata yang ditebak merupakan nama-nama   |\n\t\t\t\t\t|    hewan yang tidak memiliki huruf A.\t\t     |"<<endl;
+	cout<<"\t\t\t\t\t| 1. Kata yang ditebak merupakan nama-nama   |\n\t\t\t\t\t|    hewan yang tidak memiliki huruf A.\t     |"<<endl;
 	cout<<"\t\t\t\t\t| 2. Player menebak kata dengan menginputkan |\n\t\t\t\t\t|    huruf kecil satu per satu.\t\t     |"<<endl;
 	cout<<"\t\t\t\t\t| 3. Player memiliki 5 nyawa pertama.        |"<<endl;
 	cout<<"\t\t\t\t\t| 4. Jika huruf inputan salah maka nyawa     |\n\t\t\t\t\t|    player berkurang 1.\t\t     |"<<endl;
